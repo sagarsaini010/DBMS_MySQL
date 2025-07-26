@@ -1,0 +1,9 @@
+USE sagar;
+CREATE TABLE addresses (
+id INT AUTO_INCREMENT PRIMARY KEY,
+user_id INT,
+street VARCHAR(100) NOT NULL,
+state VARCHAR(100),
+pin_code VARCHAR(10),
+CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);

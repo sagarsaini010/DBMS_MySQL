@@ -1,0 +1,12 @@
+-- USE sagar;
+-- INSERT INTO addresses (user_id,street,state,pin_code) 
+-- VALUES
+-- (1, '23 Nehru Road', 'Uttar Pradesh', 250002),
+-- (2, '11 MG Avenue', 'Maharashtra', 400001),
+-- (3, '8 Residency Lane', 'Karnataka', 560001),
+-- (4, '47 Civil Lines', 'Tamil Nadu', 600006),
+-- (5, '91 Connaught Place', 'Delhi', 110001),
+-- (6, '302 Tagore Nagar', 'Punjab', 140401),
+-- (7, '15 Lake View Road', 'West Bengal', 700029);
+-- SELECT * FROM users LEFT JOIN addresses ON users.id = addresses.user_id;
+
